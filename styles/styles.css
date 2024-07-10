@@ -1,24 +1,82 @@
-.open-sans-normal {
-    font-family: "Open Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 100;
-  }
-  
-
 .header{
-    background-image: url(../assets/Hero-bg.png);
+
 }
 
-/* banner section */
+/* Button  */
+.btn-color-1{
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
 
+.bg-color{
+    background-color: aliceblue;
+}
+
+/* texT */
+.text-center{
+    text-align: center;
+}
+
+
+/* banner styles */
 .banner{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.boy{
+    /* position: absolute; */
+}
+.banner-start{
+    background-image: url(../assets/Hero-bg.png);
+    background: cover;
+    background-size: 500px;
+    width: 2000px;
+}
+
+/* Why Web Development */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.why-web-section{
+    text-align: center;
+    margin: 0 auto;
+    height: 800px;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
-    margin: 0px 35px 200px;
 }
-.banner-content{
-    max-width: 580px;
+.web-description{
+    /* display: flex; */
+    align-items: center;
+    margin: 50px;
+    /* padding: 20px; */
+    /* display: grid; */
+    justify-content: space-between;
+    text-align: center;
+}
+.title{
+    text-align: left;
+    display: flex;
+}
+
+.img{
+    padding-left: 300px;
+}
+.title-description{
+
+}
+
+/* Inspiration */
+.inspiration{
+    text-align: center;
+    padding-top: 20px;
+}
+.video-container{
+    border-radius: 10px;
 }
